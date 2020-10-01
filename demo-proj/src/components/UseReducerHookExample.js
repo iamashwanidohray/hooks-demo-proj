@@ -21,6 +21,7 @@ export default function UseReducerHook() {
 
     return (
         <div>
+            <h3>useReducer hook....with single value in initialState</h3>
             <div>Count : <b>{count}</b></div>
             <button onClick={() => dispatch('increment')}>Increment</button>
             <button onClick={() => dispatch('decrement')}>Decrement</button>

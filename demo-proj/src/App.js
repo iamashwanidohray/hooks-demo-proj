@@ -1,6 +1,7 @@
 import React from 'react';
 import ContextHooksExample from './components/ContextHooksExample';
 import UseReducerHookExample from './components/UseReducerHookExample';
+import UseReducerExampleTwo from './components/UseReducerExampleTwo';
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -15,6 +16,8 @@ function App() {
         </ChannelContext.Provider>
       </UserContext.Provider>
       <UseReducerHookExample />
+      <hr/>
+      <UseReducerExampleTwo />
     </div>
   );
 }
